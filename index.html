@@ -12,17 +12,17 @@
     <p id="description">Example form for Microverse please fill in with your personal information</p>
     <form id="survey-form">
       <label for="name" id="name-label">Nombre:</label>
-      <input id="name" type="text" placeholder="Enter your name">
+      <input id="name" type="text" placeholder="Enter your name" required>
       <label for="email" id="email-label">Email:</label>
-      <input id="email" type="email" placeholder="Enter your email">
+      <input id="email" type="email" placeholder="Enter your email" required>
       <label for="number" id="number-label">Number:</label>
       <input id="number" type = "number" min="1" max="8" placeholder="You can put a number between 1 and 8">
       <p>Select your favorite programming language</p>
       <select id="dropdown"> <option value="JavaScript">JavaScript</option> <option value="Python">Python</option> </select>
       <p>Select your genre</p>
-      <input type="radio" id ="genre" name="genre">
+      <input type="radio" id ="genre" name="genre" value="female">
       <label for="genre" id="female">female</label>
-      <input type="radio" id ="genre1" name="genre">
+      <input type="radio" id ="genre1" name="genre" value="male">
       <label for="genre1" id="male">male</label>
       <p>Hobbies</p>
       <input id="football" type="checkbox" value="football">
